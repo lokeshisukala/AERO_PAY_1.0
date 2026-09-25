@@ -1,0 +1,25 @@
+{
+  "name": "aero-pay-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "elliptic": "^6.6.1",
+    "expo": "~57.0.24",
+    "expo-camera": "~57.0.5",
+    "expo-sqlite": "~57.0.3",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-qrcode-svg": "^6.3.26",
+    "react-native-svg": "15.15.4"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
